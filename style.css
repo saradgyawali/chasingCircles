@@ -1,4 +1,4 @@
-.box{
+.box {
 	height:30px;
 	width:30px;
 	border:1px solid green;
@@ -6,10 +6,7 @@
 	background-color: red;
 	float:right;
 	margin:5px;
+	animation:color-change 2s infinite;
 }
 
-#main {
-	height:60px;
-	width:800px;
-	border: 2px solid blue;
-}
+@keyframes color-change { 0%{color:red;} 100%{color:green;} }
