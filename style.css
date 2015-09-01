@@ -1,7 +1,15 @@
 .box{
-	height:60px;
-	width:60px;
+	height:30px;
+	width:30px;
 	border:1px solid green;
 	border-radius:30px;
 	background-color: red;
+	float:right;
+	margin:5px;
+}
+
+#main {
+	height:60px;
+	width:800px;
+	border: 2px solid blue;
 }
