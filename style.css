@@ -1,12 +1,12 @@
 .box {
 	height:30px;
 	width:30px;
-	border:1px solid green;
+	border:1px solid black;
 	border-radius:30px;
 	background-color: red;
 	float:right;
 	margin:5px;
-	animation:color-change 2s infinite;
-}
+	/*animation:color-change 2s infinite;
+*/}
 
-@keyframes color-change { 0%{color:red;} 100%{color:green;} }
+/*@keyframes color-change { 0%{color:red;} 100%{color:green;} }*/
