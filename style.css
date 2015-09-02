@@ -3,10 +3,10 @@
 	width:30px;
 	border:1px solid black;
 	border-radius:30px;
-	background-color: red;
+	background-color: white;
 	float:right;
 	margin:5px;
 	/*animation:color-change 2s infinite;
 */}
 
-/*@keyframes color-change { 0%{color:red;} 100%{color:green;} }*/
+@keyframes color-change { 0%{color:red;} 100%{color:green;} }
