@@ -99,5 +99,9 @@ $(document).ready(function(){
 		$(".circle16").css("background-color", "blue")
 	});
 
+	$(".circle1").hover(function(){
+		$(".circle1").animate({left: "250px"});
+	});
+
 
 });

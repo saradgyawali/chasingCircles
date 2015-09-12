@@ -6,7 +6,16 @@
 	background-color: white;
 	float:right;
 	margin:5px;
-	/*animation:color-change 2s infinite;
-*/}
+	text-align: center;
+	background: radial-gradient(circle, white 15%, transparent 50%), #cc5;
+  background: -moz-radial-gradient(circle, white 15%, transparent 50%);
 
-@keyframes color-change { 0%{color:red;} 100%{color:green;} }
+}
+
+.name {
+	animation:color-change 1s infinite;
+	font-size: 29px;
+	text-align: center;
+}
+
+@keyframes color-change { 0%{color:red;} 100%{color:white;} }
