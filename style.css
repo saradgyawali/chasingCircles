@@ -9,6 +9,7 @@
 	text-align: center;
 	background: radial-gradient(circle, white 15%, transparent 50%), #cc5;
   background: -moz-radial-gradient(circle, white 15%, transparent 50%);
+  position:relative;
 
 }
 
