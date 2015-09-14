@@ -1,7 +1,7 @@
 .box {
 	height:30px;
 	width:30px;
-	border:1px solid black;
+	border:1px dashed white;
 	border-radius:30px;
 	background-color: white;
 	float:right;
