@@ -99,13 +99,13 @@ $(document).ready(function(){
 		$(".circle16").css("background-color", "blue")
 	});
 
-	// $(".name").mouseover(function(){
-	// 	var box = $(".name")
-	// 	box.animate({height: '30px', opacity: '0.4'}, "fast");
- //        box.animate({width: '30px', opacity: '0.8'}, "fast");
- //        box.animate({height: '10px', opacity: '0.4'}, "fast");
- //        box.animate({width: '10px', opacity: '0.8'}, "fast");
-	// });
+	$(".name").mouseover(function(){
+		var box = $(".name")
+		box.animate({height: '30px', opacity: '0.4'}, "fast");
+        box.animate({width: '30px', opacity: '0.8'}, "fast");
+        box.animate({height: '10px', opacity: '0.4'}, "fast");
+        box.animate({width: '10px', opacity: '0.8'}, "fast");
+	});
 
 
 });
